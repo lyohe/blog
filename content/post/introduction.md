@@ -1,7 +1,7 @@
 ---
 title: "ブログを作りました"
 date: 2021-02-02
-author: "Ryohei Tsuda"
+author: "lyohe"
 description: "新人プログラマーの自己紹介"
 tags: [ poem ]
 ---
