@@ -7,6 +7,9 @@ params:
   titleEmoji: '🦥'
 
 menu:
+  header:
+    - name: twitter
+      url: "https://twitter.com/rtsudar"
   footer:
     - name: RSS
       url: "/index.xml"
