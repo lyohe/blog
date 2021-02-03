@@ -6,9 +6,6 @@ theme: "hugo-tania"
 params:
   titleEmoji: '🦥'
 
-permalinks:
-  post: "/:year/:month/:day/:filename/"
-
 menu:
   footer:
     - name: RSS
