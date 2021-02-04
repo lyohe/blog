@@ -1,10 +1,15 @@
 baseurl: "https://lyohe.github.io"
 languageCode: "ja-jp"
 title: "ここにかく"
+author: "Ryohei Tsuda"
 theme: "hugo-tania"
 
 params:
+  title: "ここにかく"
   titleEmoji: '🦥'
+  description: "会計と税金とプログラミング"
+  images:
+  - tori.JPG
 
 menu:
   header:
