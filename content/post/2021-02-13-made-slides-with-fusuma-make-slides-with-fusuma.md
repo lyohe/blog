@@ -13,7 +13,7 @@ tags: [ Fusuma ]
 
 思ったより楽に良さげなスライドができたのでスライドを作る際の選択肢の一つとしてお勧めしたい。しかしながら、自分が作ったスライドが公開できないやつなので、別に Fusuma を使ってスライドを作る方法を説明するスライドを作りそれをブログに書くことにした。
 
-なお、本記事の Fusuma に関する情報のほぼ全ては [README](https://github.com/hiroppy/fusuma/blob/master/README.md) と[公式サイトの intro](https://hiroppy.github.io/fusuma/intro/) 、[site/docs/guides](https://github.com/hiroppy/fusuma/tree/master/site/docs/guides) を読めば書いてあることしか書いていない。そちらの方が正確かつ詳しいので、使ってみようかと思った方はそちらを読んだ方が有益だ。
+なお、本記事の Fusuma に関する情報のほぼ全ては [README](https://github.com/hiroppy/fusuma/blob/master/README.md) と[公式サイトの intro](https://hiroppy.github.io/fusuma/intro/) 、[site/docs/guides](https://github.com/hiroppy/fusuma/tree/master/site/docs/guides) を読めば書いてあることしか書いていない。そちらの方が正確かつ詳しいので、使ってみようかと思った方はそちらを読んだ方が有益そうだ。
 
 この記事には主に自分の動機や印象に残ったことを書いた。
 
@@ -64,7 +64,6 @@ Fusuma には `npx fusuma pdf` で PDF を出力する機能があるが、こ�
 
 build や pdf export は[コマンドラインオプションでいろいろできる](https://github.com/hiroppy/fusuma/blob/master/packages/fusuma/src/cli/index.js)が特に理由なければデフォルトを使うのがいいと思う。
 
-
 ### シンタックスハイライト
 
 スライド上でプログラムをシンタックスハイライトするために [Prism.js](https://www.npmjs.com/package/prismjs) を使っている。
@@ -101,7 +100,7 @@ https://hiroppy.github.io/fusuma/docs/guides/math-chart
 
 ### npm
 
-これは恥ずかしい話なのだが、 Fusuma 入れた後にそのプロジェクトで npm 使って手動でいろいろ入れたら何もしてないのに壊れて困った。
+これは恥ずかしい話なのだが、 Fusuma 入れた後にそのプロジェクトで npm 使って手動でいろいろ入れたら何もしてないのに壊れて困った（いろいろ npm uninstall して一からやり直したらなおった）。
 
 実際 npm のこと何も分からず使ってる感があるのでちゃんと勉強しようと思う。
 
@@ -111,6 +110,6 @@ https://hiroppy.github.io/fusuma/docs/guides/math-chart
 
 そして[作者の方](https://github.com/hiroppy)に課金できるボタンが GitHub にあったので $5/month のコースを押した。
 
-あと [Promise の本](https://azu.github.io/promises-book/)のおかげで Promise のことが分かるようになってきたので、著者の [azu](https://github.com/azu) さんにも $5/month 課金した。ちなみに私の Slack には azu さんの GitHub アクティビティが流れるチャンネルがある。
+あと今回の記事と関係ないが [Promise の本](https://azu.github.io/promises-book/)のおかげで Promise のことが分かるようになってきたので、著者の [azu](https://github.com/azu) さんにも $5/month 課金した。ちなみに私の Slack には azu さんの GitHub アクティビティが流れるチャンネルがある。
 
 自分自身はプログラミング初心者なので何やってるのか全く分からんのだが、やっていこうと思います。
